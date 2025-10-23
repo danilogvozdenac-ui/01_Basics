@@ -19,3 +19,4 @@ if (c == "/") {
     console.log("Das Ergebnis ist: " + (Number(a) / Number(b)));
 }
 
+

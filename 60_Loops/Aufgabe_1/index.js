@@ -1,6 +1,6 @@
 let b = 0;
 
-for(let a = 1; a <= 100; a++) {
+for(let a = 1; a <= 10; a++) {
     b = b + a;
 }       
 console.log(b);

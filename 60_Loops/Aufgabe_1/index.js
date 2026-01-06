@@ -1,6 +1,6 @@
-let b = 0;
+let sum = 0;
 
 for (let a = 1; a <= 100; a++) {
-    b = b + a;
+    sum = sum + a;
 }       
-console.log(b);
+console.log(sum);

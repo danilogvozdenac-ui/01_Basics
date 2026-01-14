@@ -13,7 +13,7 @@ let applePerKilo = 1 / appleWeight;
 let pricePerApple = applePricePerKilo / applePerKilo;
 let pricePerBanana = bananaPricePerKilo / bananaPerKilo;
 
-console.log(`´Es gibt ${applePerKilo.toFixed(2)} Äpfel pro Kilo. Ein Apfel kostet €${pricePerApple.toFixed(2)}.`);
+console.log(`Es gibt ${applePerKilo.toFixed(2)} Äpfel pro Kilo. Ein Apfel kostet €${pricePerApple.toFixed(2)}.`);
 console.log(`Es gibt ${bananaPerKilo.toFixed(2)} Bananen pro Kilo. Eine Banane kostet €${pricePerBanana.toFixed(2)}.`);
 
 console.log("8 Äpfel kosten: €" + (8 * pricePerApple).toFixed(2));

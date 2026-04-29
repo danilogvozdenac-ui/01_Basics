@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  background-color: white; /* ganze Seite weiß */
+}
+
+.header {
+  background-color: black; /* nur oben schwarz */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.login-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.login-text p {
+  margin: 0;
+}
+
+.icon {
+  height: 20px;
+
+  width: 20px;
+
+  filter: brightness(0) invert(1);
+}

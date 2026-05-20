@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#btn {
+    width: 400px;
+    height: 150px;
+    font-size: 40px;
+
+    background-color: blue;
+    color: white;
+
+    border: none;
+    border-radius: 20px;
+
+    cursor: pointer;
+}
+
+#video {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+}
+
+#video iframe {
+    width: 100%;
+    height: 100%;
+}
+</style>
+</head>
+
+<body>
+
+<button id="btn">Klick mich 😂</button>
+
+<div id="video">
+    <iframe
+    src=""
+    title="Funny Video"
+    frameborder="0"
+    allow="autoplay; fullscreen"
+    allowfullscreen>
+    </iframe>
+</div>
+
+<script>
+document.getElementById("btn").addEventListener("click", function() {
+
+    document.getElementById("btn").style.display = "none";
+
+    document.getElementById("video").style.display = "block";
+});
+</script>
+
+</body>
+</html>
